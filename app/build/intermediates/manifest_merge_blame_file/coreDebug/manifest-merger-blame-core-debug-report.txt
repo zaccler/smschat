@@ -1,0 +1,1191 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.simplemobiletools.smsmessenger.debug"
+4    android:installLocation="auto"
+5    android:versionCode="85"
+6    android:versionName="5.19.3" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+10        android:targetSdkVersion="34" />
+11
+12    <uses-permission android:name="android.permission.READ_SMS" />
+12-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.WRITE_SMS" />
+13-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:7:5-68
+13-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:7:22-65
+14    <uses-permission android:name="android.permission.SEND_SMS" />
+14-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:8:5-67
+14-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+15-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:9:5-70
+15-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:9:22-67
+16    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+16-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:10:5-70
+16-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:10:22-67
+17    <uses-permission android:name="android.provider.Telephony.SMS_RECEIVED" />
+17-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:11:5-79
+17-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:12:5-68
+18-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:12:22-65
+19    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+19-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:13:5-79
+19-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+20-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:14:5-75
+20-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:14:22-72
+21    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+21-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:15:5-77
+21-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:15:22-74
+22    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+22-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:16:5-77
+22-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:16:22-74
+23    <uses-permission
+23-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:18:5-20:38
+24        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+24-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:19:9-65
+25        android:maxSdkVersion="28" />
+25-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:20:9-35
+26    <uses-permission android:name="android.permission.READ_CONTACTS" />
+26-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:22:5-72
+26-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:22:22-69
+27
+28    <queries>
+28-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:27:5-30:15
+29        <package android:name="com.simplemobiletools.contacts.pro.debug" />
+29-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:28:9-76
+29-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:28:18-73
+30        <package android:name="com.simplemobiletools.contacts.pro" />
+30-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:29:9-70
+30-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:29:18-67
+31        <package android:name="com.simplemobiletools.thankyou.debug" />
+31-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:9:9-72
+31-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:9:18-69
+32        <package android:name="com.simplemobiletools.thankyou" />
+32-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:10:9-66
+32-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:10:18-63
+33    </queries>
+34
+35    <uses-feature android:name="android.hardware.telephony" />
+35-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:32:5-63
+35-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:32:19-60
+36    <uses-feature
+36-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:13:5-15:36
+37        android:name="android.hardware.faketouch"
+37-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:14:9-50
+38        android:required="false" />
+38-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:15:9-33
+39    <uses-feature
+39-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:16:5-18:36
+40        android:name="android.hardware.screen.portrait"
+40-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:17:9-56
+41        android:required="false" /> <!-- suppress DeprecatedClassUsageInspection -->
+41-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:18:9-33
+42    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+42-->[androidx.biometric:biometric:1.2.0-alpha05] C:\Users\Velikiu\.gradle\caches\transforms-3\69facd36f46bf6e7da6b43371bfd1a97\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:25:5-74
+42-->[androidx.biometric:biometric:1.2.0-alpha05] C:\Users\Velikiu\.gradle\caches\transforms-3\69facd36f46bf6e7da6b43371bfd1a97\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:25:22-71
+43
+44    <permission
+44-->[androidx.core:core:1.12.0] C:\Users\Velikiu\.gradle\caches\transforms-3\a881e906c4124b46916301855c1f30d7\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+45        android:name="com.simplemobiletools.smsmessenger.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+45-->[androidx.core:core:1.12.0] C:\Users\Velikiu\.gradle\caches\transforms-3\a881e906c4124b46916301855c1f30d7\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+46        android:protectionLevel="signature" /> <!-- for android -->
+46-->[androidx.core:core:1.12.0] C:\Users\Velikiu\.gradle\caches\transforms-3\a881e906c4124b46916301855c1f30d7\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+47    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+48    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+49    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+50    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+51    <!-- for Samsung -->
+52    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+53    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+54    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+55    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+56    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+57    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+58    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+59    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+59-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+59-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+60    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+60-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+60-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+61    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+61-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+61-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+62    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+62-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+62-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+63    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+63-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+63-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+64    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+64-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+64-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+65    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+65-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+65-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+66    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+66-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+66-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+67    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+67-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+67-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Velikiu\.gradle\caches\transforms-3\525ff031016db2770aeab043223da628\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+68
+69    <application
+69-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:34:5-524:19
+70        android:name="com.simplemobiletools.smsmessenger.App"
+70-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:35:9-28
+71        android:allowBackup="true"
+71-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:36:9-35
+72        android:appCategory="productivity"
+72-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:37:9-43
+73        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+73-->[androidx.core:core:1.12.0] C:\Users\Velikiu\.gradle\caches\transforms-3\a881e906c4124b46916301855c1f30d7\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+74        android:debuggable="true"
+75        android:extractNativeLibs="false"
+76        android:icon="@mipmap/ic_launcher"
+76-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:38:9-43
+77        android:label="@string/app_launcher_name"
+77-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:39:9-50
+78        android:localeConfig="@xml/locale_config"
+78-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:40:9-50
+79        android:roundIcon="@mipmap/ic_launcher"
+79-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:41:9-48
+80        android:supportsRtl="true"
+80-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:32:18-44
+81        android:testOnly="true"
+82        android:theme="@style/AppTheme" >
+82-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:42:9-40
+83        <activity
+83-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:44:9-47:50
+84            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity"
+84-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:45:13-54
+85            android:exported="false"
+85-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:46:13-37
+86            android:theme="@style/SplashTheme" />
+86-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:47:13-47
+87
+88        <activity-alias
+88-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:511:9-523:26
+89            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Grey_black"
+89-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:512:13-65
+90            android:enabled="false"
+90-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:513:13-36
+91            android:exported="true"
+91-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:514:13-36
+92            android:icon="@mipmap/ic_launcher_grey_black"
+92-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:515:13-58
+93            android:roundIcon="@mipmap/ic_launcher_grey_black"
+93-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:516:13-63
+94            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+94-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:517:13-64
+95            <intent-filter>
+95-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:268:13-271:29
+96                <action android:name="android.intent.action.MAIN" />
+96-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:17-69
+96-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:25-66
+97
+98                <category android:name="android.intent.category.LAUNCHER" />
+98-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:17-77
+98-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:27-74
+99            </intent-filter>
+100        </activity-alias>
+101        <activity-alias
+101-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:497:9-509:26
+102            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Blue_grey"
+102-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:498:13-64
+103            android:enabled="false"
+103-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:499:13-36
+104            android:exported="true"
+104-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:500:13-36
+105            android:icon="@mipmap/ic_launcher_blue_grey"
+105-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:501:13-57
+106            android:roundIcon="@mipmap/ic_launcher_blue_grey"
+106-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:502:13-62
+107            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+107-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:503:13-64
+108            <intent-filter>
+108-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:268:13-271:29
+109                <action android:name="android.intent.action.MAIN" />
+109-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:17-69
+109-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:25-66
+110
+111                <category android:name="android.intent.category.LAUNCHER" />
+111-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:17-77
+111-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:27-74
+112            </intent-filter>
+113        </activity-alias>
+114        <activity-alias
+114-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:483:9-495:26
+115            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Brown"
+115-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:484:13-60
+116            android:enabled="false"
+116-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:485:13-36
+117            android:exported="true"
+117-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:486:13-36
+118            android:icon="@mipmap/ic_launcher_brown"
+118-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:487:13-53
+119            android:roundIcon="@mipmap/ic_launcher_brown"
+119-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:488:13-58
+120            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+120-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:489:13-64
+121            <intent-filter>
+121-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:268:13-271:29
+122                <action android:name="android.intent.action.MAIN" />
+122-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:17-69
+122-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:25-66
+123
+124                <category android:name="android.intent.category.LAUNCHER" />
+124-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:17-77
+124-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:27-74
+125            </intent-filter>
+126        </activity-alias>
+127        <activity-alias
+127-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:469:9-481:26
+128            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Deep_orange"
+128-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:470:13-66
+129            android:enabled="false"
+129-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:471:13-36
+130            android:exported="true"
+130-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:472:13-36
+131            android:icon="@mipmap/ic_launcher_deep_orange"
+131-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:473:13-59
+132            android:roundIcon="@mipmap/ic_launcher_deep_orange"
+132-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:474:13-64
+133            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+133-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:475:13-64
+134            <intent-filter>
+134-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:268:13-271:29
+135                <action android:name="android.intent.action.MAIN" />
+135-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:17-69
+135-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:25-66
+136
+137                <category android:name="android.intent.category.LAUNCHER" />
+137-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:17-77
+137-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:27-74
+138            </intent-filter>
+139        </activity-alias>
+140        <activity-alias
+140-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:456:9-467:26
+141            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Orange"
+141-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:457:13-61
+142            android:enabled="true"
+142-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:458:13-35
+143            android:exported="true"
+143-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:459:13-36
+144            android:icon="@mipmap/ic_launcher"
+144-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:460:13-47
+145            android:roundIcon="@mipmap/ic_launcher"
+145-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:461:13-52
+146            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+146-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:462:13-64
+147            <intent-filter>
+147-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:268:13-271:29
+148                <action android:name="android.intent.action.MAIN" />
+148-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:17-69
+148-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:25-66
+149
+150                <category android:name="android.intent.category.LAUNCHER" />
+150-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:17-77
+150-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:27-74
+151            </intent-filter>
+152        </activity-alias>
+153        <activity-alias
+153-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:442:9-454:26
+154            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Amber"
+154-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:443:13-60
+155            android:enabled="false"
+155-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:444:13-36
+156            android:exported="true"
+156-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:445:13-36
+157            android:icon="@mipmap/ic_launcher_amber"
+157-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:446:13-53
+158            android:roundIcon="@mipmap/ic_launcher_amber"
+158-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:447:13-58
+159            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+159-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:448:13-64
+160            <intent-filter>
+160-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:268:13-271:29
+161                <action android:name="android.intent.action.MAIN" />
+161-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:17-69
+161-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:25-66
+162
+163                <category android:name="android.intent.category.LAUNCHER" />
+163-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:17-77
+163-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:27-74
+164            </intent-filter>
+165        </activity-alias>
+166        <activity-alias
+166-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:428:9-440:26
+167            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Yellow"
+167-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:429:13-61
+168            android:enabled="false"
+168-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:430:13-36
+169            android:exported="true"
+169-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:431:13-36
+170            android:icon="@mipmap/ic_launcher_yellow"
+170-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:432:13-54
+171            android:roundIcon="@mipmap/ic_launcher_yellow"
+171-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:433:13-59
+172            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+172-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:434:13-64
+173            <intent-filter>
+173-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:268:13-271:29
+174                <action android:name="android.intent.action.MAIN" />
+174-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:17-69
+174-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:25-66
+175
+176                <category android:name="android.intent.category.LAUNCHER" />
+176-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:17-77
+176-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:27-74
+177            </intent-filter>
+178        </activity-alias>
+179        <activity-alias
+179-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:414:9-426:26
+180            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Lime"
+180-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:415:13-59
+181            android:enabled="false"
+181-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:416:13-36
+182            android:exported="true"
+182-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:417:13-36
+183            android:icon="@mipmap/ic_launcher_lime"
+183-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:418:13-52
+184            android:roundIcon="@mipmap/ic_launcher_lime"
+184-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:419:13-57
+185            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+185-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:420:13-64
+186            <intent-filter>
+186-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:268:13-271:29
+187                <action android:name="android.intent.action.MAIN" />
+187-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:17-69
+187-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:25-66
+188
+189                <category android:name="android.intent.category.LAUNCHER" />
+189-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:17-77
+189-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:27-74
+190            </intent-filter>
+191        </activity-alias>
+192        <activity-alias
+192-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:400:9-412:26
+193            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Light_green"
+193-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:401:13-66
+194            android:enabled="false"
+194-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:402:13-36
+195            android:exported="true"
+195-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:403:13-36
+196            android:icon="@mipmap/ic_launcher_light_green"
+196-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:404:13-59
+197            android:roundIcon="@mipmap/ic_launcher_light_green"
+197-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:405:13-64
+198            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+198-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:406:13-64
+199            <intent-filter>
+199-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:268:13-271:29
+200                <action android:name="android.intent.action.MAIN" />
+200-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:17-69
+200-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:25-66
+201
+202                <category android:name="android.intent.category.LAUNCHER" />
+202-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:17-77
+202-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:27-74
+203            </intent-filter>
+204        </activity-alias>
+205        <activity-alias
+205-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:386:9-398:26
+206            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Green"
+206-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:387:13-60
+207            android:enabled="false"
+207-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:388:13-36
+208            android:exported="true"
+208-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:389:13-36
+209            android:icon="@mipmap/ic_launcher_green"
+209-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:390:13-53
+210            android:roundIcon="@mipmap/ic_launcher_green"
+210-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:391:13-58
+211            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+211-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:392:13-64
+212            <intent-filter>
+212-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:268:13-271:29
+213                <action android:name="android.intent.action.MAIN" />
+213-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:17-69
+213-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:25-66
+214
+215                <category android:name="android.intent.category.LAUNCHER" />
+215-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:17-77
+215-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:27-74
+216            </intent-filter>
+217        </activity-alias>
+218        <activity-alias
+218-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:372:9-384:26
+219            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Teal"
+219-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:373:13-59
+220            android:enabled="false"
+220-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:374:13-36
+221            android:exported="true"
+221-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:375:13-36
+222            android:icon="@mipmap/ic_launcher_teal"
+222-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:376:13-52
+223            android:roundIcon="@mipmap/ic_launcher_teal"
+223-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:377:13-57
+224            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+224-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:378:13-64
+225            <intent-filter>
+225-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:268:13-271:29
+226                <action android:name="android.intent.action.MAIN" />
+226-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:17-69
+226-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:25-66
+227
+228                <category android:name="android.intent.category.LAUNCHER" />
+228-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:17-77
+228-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:27-74
+229            </intent-filter>
+230        </activity-alias>
+231        <activity-alias
+231-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:358:9-370:26
+232            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Cyan"
+232-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:359:13-59
+233            android:enabled="false"
+233-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:360:13-36
+234            android:exported="true"
+234-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:361:13-36
+235            android:icon="@mipmap/ic_launcher_cyan"
+235-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:362:13-52
+236            android:roundIcon="@mipmap/ic_launcher_cyan"
+236-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:363:13-57
+237            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+237-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:364:13-64
+238            <intent-filter>
+238-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:268:13-271:29
+239                <action android:name="android.intent.action.MAIN" />
+239-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:17-69
+239-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:25-66
+240
+241                <category android:name="android.intent.category.LAUNCHER" />
+241-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:17-77
+241-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:27-74
+242            </intent-filter>
+243        </activity-alias>
+244        <activity-alias
+244-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:344:9-356:26
+245            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Light_blue"
+245-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:345:13-65
+246            android:enabled="false"
+246-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:346:13-36
+247            android:exported="true"
+247-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:347:13-36
+248            android:icon="@mipmap/ic_launcher_light_blue"
+248-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:348:13-58
+249            android:roundIcon="@mipmap/ic_launcher_light_blue"
+249-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:349:13-63
+250            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+250-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:350:13-64
+251            <intent-filter>
+251-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:268:13-271:29
+252                <action android:name="android.intent.action.MAIN" />
+252-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:17-69
+252-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:25-66
+253
+254                <category android:name="android.intent.category.LAUNCHER" />
+254-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:17-77
+254-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:27-74
+255            </intent-filter>
+256        </activity-alias>
+257        <activity-alias
+257-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:330:9-342:26
+258            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Blue"
+258-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:331:13-59
+259            android:enabled="false"
+259-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:332:13-36
+260            android:exported="true"
+260-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:333:13-36
+261            android:icon="@mipmap/ic_launcher_blue"
+261-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:334:13-52
+262            android:roundIcon="@mipmap/ic_launcher_blue"
+262-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:335:13-57
+263            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+263-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:336:13-64
+264            <intent-filter>
+264-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:268:13-271:29
+265                <action android:name="android.intent.action.MAIN" />
+265-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:17-69
+265-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:25-66
+266
+267                <category android:name="android.intent.category.LAUNCHER" />
+267-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:17-77
+267-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:27-74
+268            </intent-filter>
+269        </activity-alias>
+270        <activity-alias
+270-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:316:9-328:26
+271            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Indigo"
+271-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:317:13-61
+272            android:enabled="false"
+272-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:318:13-36
+273            android:exported="true"
+273-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:319:13-36
+274            android:icon="@mipmap/ic_launcher_indigo"
+274-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:320:13-54
+275            android:roundIcon="@mipmap/ic_launcher_indigo"
+275-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:321:13-59
+276            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+276-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:322:13-64
+277            <intent-filter>
+277-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:268:13-271:29
+278                <action android:name="android.intent.action.MAIN" />
+278-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:17-69
+278-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:25-66
+279
+280                <category android:name="android.intent.category.LAUNCHER" />
+280-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:17-77
+280-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:27-74
+281            </intent-filter>
+282        </activity-alias>
+283        <activity-alias
+283-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:302:9-314:26
+284            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Deep_purple"
+284-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:303:13-66
+285            android:enabled="false"
+285-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:304:13-36
+286            android:exported="true"
+286-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:305:13-36
+287            android:icon="@mipmap/ic_launcher_deep_purple"
+287-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:306:13-59
+288            android:roundIcon="@mipmap/ic_launcher_deep_purple"
+288-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:307:13-64
+289            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+289-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:308:13-64
+290            <intent-filter>
+290-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:268:13-271:29
+291                <action android:name="android.intent.action.MAIN" />
+291-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:17-69
+291-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:25-66
+292
+293                <category android:name="android.intent.category.LAUNCHER" />
+293-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:17-77
+293-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:27-74
+294            </intent-filter>
+295        </activity-alias>
+296        <activity-alias
+296-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:288:9-300:26
+297            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Purple"
+297-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:289:13-61
+298            android:enabled="false"
+298-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:290:13-36
+299            android:exported="true"
+299-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:291:13-36
+300            android:icon="@mipmap/ic_launcher_purple"
+300-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:292:13-54
+301            android:roundIcon="@mipmap/ic_launcher_purple"
+301-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:293:13-59
+302            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+302-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:294:13-64
+303            <intent-filter>
+303-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:268:13-271:29
+304                <action android:name="android.intent.action.MAIN" />
+304-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:17-69
+304-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:25-66
+305
+306                <category android:name="android.intent.category.LAUNCHER" />
+306-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:17-77
+306-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:27-74
+307            </intent-filter>
+308        </activity-alias>
+309        <activity-alias
+309-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:274:9-286:26
+310            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Pink"
+310-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:275:13-59
+311            android:enabled="false"
+311-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:276:13-36
+312            android:exported="true"
+312-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:277:13-36
+313            android:icon="@mipmap/ic_launcher_pink"
+313-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:278:13-52
+314            android:roundIcon="@mipmap/ic_launcher_pink"
+314-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:279:13-57
+315            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+315-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:280:13-64
+316            <intent-filter>
+316-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:268:13-271:29
+317                <action android:name="android.intent.action.MAIN" />
+317-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:17-69
+317-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:25-66
+318
+319                <category android:name="android.intent.category.LAUNCHER" />
+319-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:17-77
+319-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:27-74
+320            </intent-filter>
+321        </activity-alias>
+322        <activity-alias
+322-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:260:9-272:26
+323            android:name="com.simplemobiletools.smsmessenger.activities.SplashActivity.Red"
+323-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:261:13-58
+324            android:enabled="false"
+324-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:262:13-36
+325            android:exported="true"
+325-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:263:13-36
+326            android:icon="@mipmap/ic_launcher_red"
+326-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:264:13-51
+327            android:roundIcon="@mipmap/ic_launcher_red"
+327-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:265:13-56
+328            android:targetActivity="com.simplemobiletools.smsmessenger.activities.SplashActivity" >
+328-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:266:13-64
+329            <intent-filter>
+329-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:268:13-271:29
+330                <action android:name="android.intent.action.MAIN" />
+330-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:17-69
+330-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:269:25-66
+331
+332                <category android:name="android.intent.category.LAUNCHER" />
+332-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:17-77
+332-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:270:27-74
+333            </intent-filter>
+334        </activity-alias>
+335
+336        <activity
+336-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:49:9-52:39
+337            android:name="com.simplemobiletools.smsmessenger.activities.MainActivity"
+337-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:50:13-52
+338            android:configChanges="orientation"
+338-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:51:13-48
+339            android:exported="true" />
+339-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:52:13-36
+340        <activity
+340-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:54:9-59:69
+341            android:name="com.simplemobiletools.smsmessenger.activities.RecycleBinConversationsActivity"
+341-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:55:13-71
+342            android:configChanges="orientation"
+342-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:56:13-48
+343            android:exported="true"
+343-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:57:13-36
+344            android:label="@string/recycle_bin"
+344-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:58:13-48
+345            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.MainActivity" />
+345-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:59:13-66
+346        <activity
+346-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:61:9-66:69
+347            android:name="com.simplemobiletools.smsmessenger.activities.ArchivedConversationsActivity"
+347-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:62:13-69
+348            android:configChanges="orientation"
+348-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:63:13-48
+349            android:exported="true"
+349-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:64:13-36
+350            android:label="@string/archived_conversations"
+350-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:65:13-59
+351            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.MainActivity" />
+351-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:66:13-66
+352        <activity
+352-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:68:9-74:58
+353            android:name="com.simplemobiletools.smsmessenger.activities.ThreadActivity"
+353-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:69:13-54
+354            android:configChanges="orientation"
+354-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:70:13-48
+355            android:exported="false"
+355-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:71:13-37
+356            android:launchMode="singleTop"
+356-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:72:13-43
+357            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.MainActivity"
+357-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:73:13-66
+358            android:windowSoftInputMode="adjustResize" />
+358-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:74:13-55
+359        <activity
+359-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:76:9-109:20
+360            android:name="com.simplemobiletools.smsmessenger.activities.NewConversationActivity"
+360-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:77:13-63
+361            android:configChanges="orientation"
+361-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:78:13-48
+362            android:exported="true"
+362-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:79:13-36
+363            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.MainActivity" >
+363-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:80:13-66
+364            <intent-filter>
+364-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:82:13-94:29
+365                <action android:name="android.intent.action.SEND" />
+365-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:83:17-69
+365-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:83:25-66
+366                <action android:name="android.intent.action.SENDTO" />
+366-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:84:17-71
+366-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:84:25-68
+367                <action android:name="android.intent.action.VIEW" />
+367-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:85:17-69
+367-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:85:25-66
+368
+369                <category android:name="android.intent.category.DEFAULT" />
+369-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:87:17-76
+369-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:87:27-73
+370                <category android:name="android.intent.category.BROWSABLE" />
+370-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:88:17-78
+370-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:88:27-75
+371
+372                <data android:scheme="sms" />
+372-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:90:17-46
+372-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:90:23-43
+373                <data android:scheme="smsto" />
+373-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:90:17-46
+373-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:90:23-43
+374                <data android:scheme="mms" />
+374-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:90:17-46
+374-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:90:23-43
+375                <data android:scheme="mmsto" />
+375-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:90:17-46
+375-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:90:23-43
+376            </intent-filter>
+377            <intent-filter>
+377-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:96:13-101:29
+378                <action android:name="android.intent.action.SEND" />
+378-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:83:17-69
+378-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:83:25-66
+379
+380                <category android:name="android.intent.category.DEFAULT" />
+380-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:87:17-76
+380-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:87:27-73
+381
+382                <data android:mimeType="*/*" />
+382-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:90:17-46
+382-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:100:23-45
+383            </intent-filter>
+384            <intent-filter>
+384-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:103:13-108:29
+385                <action android:name="android.intent.action.SEND_MULTIPLE" />
+385-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:104:17-78
+385-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:104:25-75
+386
+387                <category android:name="android.intent.category.DEFAULT" />
+387-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:87:17-76
+387-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:87:27-73
+388
+389                <data android:mimeType="*/*" />
+389-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:90:17-46
+389-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:100:23-45
+390            </intent-filter>
+391        </activity>
+392        <activity
+392-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:111:9-122:20
+393            android:name="com.simplemobiletools.smsmessenger.activities.SettingsActivity"
+393-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:112:13-56
+394            android:configChanges="orientation"
+394-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:113:13-48
+395            android:exported="true"
+395-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:114:13-36
+396            android:label="@string/settings"
+396-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:115:13-45
+397            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.MainActivity" >
+397-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:116:13-66
+398            <intent-filter>
+398-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:118:13-121:29
+399                <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
+399-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:119:17-88
+399-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:119:25-85
+400
+401                <category android:name="android.intent.category.DEFAULT" />
+401-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:87:17-76
+401-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:87:27-73
+402            </intent-filter>
+403        </activity>
+404        <activity
+404-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:124:9-129:69
+405            android:name="com.simplemobiletools.commons.activities.AboutActivity"
+405-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:125:13-82
+406            android:configChanges="orientation"
+406-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:126:13-48
+407            android:exported="false"
+407-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:127:13-37
+408            android:label="@string/about"
+408-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:128:13-42
+409            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.MainActivity" />
+409-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:129:13-66
+410        <activity
+410-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:131:9-136:73
+411            android:name="com.simplemobiletools.commons.activities.CustomizationActivity"
+411-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:132:13-90
+412            android:configChanges="orientation"
+412-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:133:13-48
+413            android:exported="false"
+413-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:134:13-37
+414            android:label="@string/customize_colors"
+414-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:135:13-53
+415            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.SettingsActivity" />
+415-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:136:13-70
+416        <activity
+416-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:138:9-144:45
+417            android:name="com.simplemobiletools.commons.activities.ManageBlockedNumbersActivity"
+417-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:139:13-97
+418            android:configChanges="orientation"
+418-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:140:13-48
+419            android:enableOnBackInvokedCallback="true"
+419-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:54:13-55
+420            android:exported="false"
+420-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:141:13-37
+421            android:label="@string/blocked_numbers"
+421-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:142:13-52
+422            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.SettingsActivity" />
+422-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:143:13-70
+423        <activity
+423-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:146:9-151:73
+424            android:name="com.simplemobiletools.smsmessenger.activities.ManageBlockedKeywordsActivity"
+424-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:147:13-69
+425            android:configChanges="orientation"
+425-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:148:13-48
+426            android:exported="false"
+426-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:149:13-37
+427            android:label="@string/blocked_keywords"
+427-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:150:13-53
+428            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.SettingsActivity" />
+428-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:151:13-70
+429        <activity
+429-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:153:9-158:71
+430            android:name="com.simplemobiletools.smsmessenger.activities.VCardViewerActivity"
+430-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:154:13-59
+431            android:configChanges="orientation"
+431-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:155:13-48
+432            android:exported="false"
+432-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:156:13-37
+433            android:label="@string/contact_details"
+433-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:157:13-52
+434            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.ThreadActivity" />
+434-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:158:13-68
+435        <activity
+435-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:160:9-165:71
+436            android:name="com.simplemobiletools.smsmessenger.activities.ConversationDetailsActivity"
+436-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:161:13-67
+437            android:configChanges="orientation"
+437-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:162:13-48
+438            android:exported="false"
+438-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:163:13-37
+439            android:label="@string/conversation_details"
+439-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:164:13-57
+440            android:parentActivityName="com.simplemobiletools.smsmessenger.activities.ThreadActivity" />
+440-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:165:13-68
+441
+442        <service
+442-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:167:9-180:19
+443            android:name="com.simplemobiletools.smsmessenger.services.HeadlessSmsSendService"
+443-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:168:13-60
+444            android:exported="true"
+444-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:169:13-36
+445            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE" >
+445-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:170:13-77
+446            <intent-filter>
+446-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:171:13-179:29
+447                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE" />
+447-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:172:17-84
+447-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:172:25-81
+448
+449                <category android:name="android.intent.category.DEFAULT" />
+449-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:87:17-76
+449-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:87:27-73
+450
+451                <data android:scheme="sms" />
+451-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:90:17-46
+451-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:90:23-43
+452                <data android:scheme="smsto" />
+452-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:90:17-46
+452-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:90:23-43
+453                <data android:scheme="mms" />
+453-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:90:17-46
+453-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:90:23-43
+454                <data android:scheme="mmsto" />
+454-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:90:17-46
+454-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:90:23-43
+455            </intent-filter>
+456        </service>
+457        <service android:name="com.android.mms.transaction.TransactionService" />
+457-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:182:9-82
+457-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:182:18-79
+458
+459        <receiver android:name="com.simplemobiletools.smsmessenger.receivers.SmsStatusSentReceiver" />
+459-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:184:9-69
+459-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:184:19-66
+460        <receiver android:name="com.simplemobiletools.smsmessenger.receivers.SmsStatusDeliveredReceiver" />
+460-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:186:9-74
+460-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:186:19-71
+461        <receiver
+461-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:188:9-195:20
+462            android:name="com.simplemobiletools.smsmessenger.receivers.SmsReceiver"
+462-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:189:13-50
+463            android:exported="true"
+463-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:190:13-36
+464            android:permission="android.permission.BROADCAST_SMS" >
+464-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:191:13-66
+465            <intent-filter>
+465-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:192:13-194:29
+466                <action android:name="android.provider.Telephony.SMS_DELIVER" />
+466-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:193:17-81
+466-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:193:25-78
+467            </intent-filter>
+468        </receiver>
+469        <receiver
+469-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:197:9-207:20
+470            android:name="com.android.mms.transaction.PushReceiver"
+470-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:198:13-68
+471            android:exported="true"
+471-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:199:13-36
+472            android:permission="android.permission.BROADCAST_WAP_PUSH" >
+472-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:200:13-71
+473            <intent-filter>
+473-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:201:13-206:29
+474                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
+474-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:202:17-86
+474-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:202:25-83
+475
+476                <data android:mimeType="application/vnd.wap.mms-message" />
+476-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:90:17-46
+476-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:100:23-45
+477                <data android:mimeType="application/vnd.wap.sic" />
+477-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:90:17-46
+477-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:100:23-45
+478            </intent-filter>
+479        </receiver>
+480        <receiver
+480-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:209:9-212:77
+481            android:name="com.simplemobiletools.smsmessenger.receivers.MmsSentReceiver"
+481-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:210:13-54
+482            android:exported="true"
+482-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:211:13-36
+483            android:taskAffinity="com.klinker.android.messaging.MMS_SENT" />
+483-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:212:13-74
+484        <receiver
+484-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:214:9-217:81
+485            android:name="com.simplemobiletools.smsmessenger.receivers.MmsReceiver"
+485-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:215:13-50
+486            android:exported="true"
+486-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:216:13-36
+487            android:taskAffinity="com.klinker.android.messaging.MMS_RECEIVED" />
+487-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:217:13-78
+488        <receiver
+488-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:219:9-226:20
+489            android:name="com.simplemobiletools.smsmessenger.receivers.MarkAsReadReceiver"
+489-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:220:13-57
+490            android:enabled="true"
+490-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:221:13-35
+491            android:exported="true" >
+491-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:222:13-36
+492            <intent-filter>
+492-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:223:13-225:29
+493                <action android:name="com.simplemobiletools.smsmessenger.action.mark_as_read" />
+493-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:224:17-97
+493-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:224:25-94
+494            </intent-filter>
+495        </receiver>
+496        <receiver
+496-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:228:9-235:20
+497            android:name="com.simplemobiletools.smsmessenger.receivers.DirectReplyReceiver"
+497-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:229:13-58
+498            android:enabled="true"
+498-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:230:13-35
+499            android:exported="true" >
+499-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:231:13-36
+500            <intent-filter>
+500-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:232:13-234:29
+501                <action android:name="com.simplemobiletools.smsmessenger.action.reply" />
+501-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:233:17-90
+501-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:233:25-87
+502            </intent-filter>
+503        </receiver>
+504        <receiver
+504-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:237:9-244:20
+505            android:name="com.simplemobiletools.smsmessenger.receivers.DeleteSmsReceiver"
+505-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:238:13-56
+506            android:enabled="true"
+506-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:239:13-35
+507            android:exported="true" >
+507-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:240:13-36
+508            <intent-filter>
+508-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:241:13-243:29
+509                <action android:name="com.simplemobiletools.smsmessenger.action.delete" />
+509-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:242:17-91
+509-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:242:25-88
+510            </intent-filter>
+511        </receiver>
+512        <receiver
+512-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:246:9-248:40
+513            android:name="com.simplemobiletools.smsmessenger.receivers.ScheduledMessageReceiver"
+513-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:247:13-63
+514            android:exported="false" />
+514-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:248:13-37
+515
+516        <provider
+517            android:name="androidx.core.content.FileProvider"
+517-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:251:13-62
+518            android:authorities="com.simplemobiletools.smsmessenger.debug.provider"
+518-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:252:13-60
+519            android:exported="false"
+519-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:253:13-37
+520            android:grantUriPermissions="true" >
+520-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:254:13-47
+521            <meta-data
+521-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:255:13-257:58
+522                android:name="android.support.FILE_PROVIDER_PATHS"
+522-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:256:17-67
+523                android:resource="@xml/provider_paths" />
+523-->C:\Users\Velikiu\AndroidStudioProjects\Simple-SMS-Messenger-master\app\src\main\AndroidManifest.xml:257:17-55
+524        </provider>
+525
+526        <activity
+526-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:33:9-38:99
+527            android:name="com.simplemobiletools.commons.activities.ContributorsActivity"
+527-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:34:13-89
+528            android:configChanges="orientation"
+528-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:35:13-48
+529            android:exported="false"
+529-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:36:13-37
+530            android:label="@string/contributors"
+530-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:37:13-49
+531            android:parentActivityName="com.simplemobiletools.commons.activities.AboutActivity" />
+531-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:38:13-96
+532        <activity
+532-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:39:9-44:99
+533            android:name="com.simplemobiletools.commons.activities.FAQActivity"
+533-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:40:13-80
+534            android:configChanges="orientation"
+534-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:41:13-48
+535            android:exported="false"
+535-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:42:13-37
+536            android:label="@string/frequently_asked_questions"
+536-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:43:13-63
+537            android:parentActivityName="com.simplemobiletools.commons.activities.AboutActivity" />
+537-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:44:13-96
+538        <activity
+538-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:45:9-50:99
+539            android:name="com.simplemobiletools.commons.activities.LicenseActivity"
+539-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:46:13-84
+540            android:configChanges="orientation"
+540-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:47:13-48
+541            android:exported="false"
+541-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:48:13-37
+542            android:label="@string/third_party_licences"
+542-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:49:13-57
+543            android:parentActivityName="com.simplemobiletools.commons.activities.AboutActivity" />
+543-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:50:13-96
+544
+545        <receiver
+545-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:58:9-66:20
+546            android:name="com.simplemobiletools.commons.receivers.SharedThemeReceiver"
+546-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:59:13-87
+547            android:enabled="true"
+547-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:60:13-35
+548            android:exported="true" >
+548-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:61:13-36
+549            <intent-filter>
+549-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:62:13-65:29
+550                <action android:name="com.simplemobiletools.commons.SHARED_THEME_ACTIVATED" />
+550-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:63:17-95
+550-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:63:25-92
+551                <action android:name="com.simplemobiletools.commons.SHARED_THEME_UPDATED" />
+551-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:64:17-93
+551-->[com.github.SimpleMobileTools:Simple-Commons:b72ded2a75] C:\Users\Velikiu\.gradle\caches\transforms-3\cc29a50c76336565abef85b55b36e2f8\transformed\jetified-Simple-Commons-b72ded2a75\AndroidManifest.xml:64:25-90
+552            </intent-filter>
+553        </receiver>
+554
+555        <provider
+555-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\8f31e488cb0e35c558d5d53394058783\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+556            android:name="androidx.startup.InitializationProvider"
+556-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\8f31e488cb0e35c558d5d53394058783\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+557            android:authorities="com.simplemobiletools.smsmessenger.debug.androidx-startup"
+557-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\8f31e488cb0e35c558d5d53394058783\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+558            android:exported="false" >
+558-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\8f31e488cb0e35c558d5d53394058783\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+559            <meta-data
+559-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\8f31e488cb0e35c558d5d53394058783\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+560                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+560-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\8f31e488cb0e35c558d5d53394058783\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+561                android:value="androidx.startup" />
+561-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\8f31e488cb0e35c558d5d53394058783\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+562            <meta-data
+562-->[androidx.lifecycle:lifecycle-process:2.7.0-alpha02] C:\Users\Velikiu\.gradle\caches\transforms-3\3c50656e1718f56afaa9d1f7995fcc01\transformed\jetified-lifecycle-process-2.7.0-alpha02\AndroidManifest.xml:29:13-31:52
+563                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+563-->[androidx.lifecycle:lifecycle-process:2.7.0-alpha02] C:\Users\Velikiu\.gradle\caches\transforms-3\3c50656e1718f56afaa9d1f7995fcc01\transformed\jetified-lifecycle-process-2.7.0-alpha02\AndroidManifest.xml:30:17-78
+564                android:value="androidx.startup" />
+564-->[androidx.lifecycle:lifecycle-process:2.7.0-alpha02] C:\Users\Velikiu\.gradle\caches\transforms-3\3c50656e1718f56afaa9d1f7995fcc01\transformed\jetified-lifecycle-process-2.7.0-alpha02\AndroidManifest.xml:31:17-49
+565            <meta-data
+565-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\fbab4929a5b6b989a621f9eea04c901c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+566                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+566-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\fbab4929a5b6b989a621f9eea04c901c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+567                android:value="androidx.startup" />
+567-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\fbab4929a5b6b989a621f9eea04c901c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+568        </provider>
+569
+570        <service
+570-->[androidx.room:room-runtime:2.6.0-rc01] C:\Users\Velikiu\.gradle\caches\transforms-3\5867a55ee9cbf0e85b86d2b06208fa71\transformed\room-runtime-2.6.0-rc01\AndroidManifest.xml:24:9-28:63
+571            android:name="androidx.room.MultiInstanceInvalidationService"
+571-->[androidx.room:room-runtime:2.6.0-rc01] C:\Users\Velikiu\.gradle\caches\transforms-3\5867a55ee9cbf0e85b86d2b06208fa71\transformed\room-runtime-2.6.0-rc01\AndroidManifest.xml:25:13-74
+572            android:directBootAware="true"
+572-->[androidx.room:room-runtime:2.6.0-rc01] C:\Users\Velikiu\.gradle\caches\transforms-3\5867a55ee9cbf0e85b86d2b06208fa71\transformed\room-runtime-2.6.0-rc01\AndroidManifest.xml:26:13-43
+573            android:exported="false" />
+573-->[androidx.room:room-runtime:2.6.0-rc01] C:\Users\Velikiu\.gradle\caches\transforms-3\5867a55ee9cbf0e85b86d2b06208fa71\transformed\room-runtime-2.6.0-rc01\AndroidManifest.xml:27:13-37
+574
+575        <provider
+575-->[com.github.tibbi:android-smsmms:c3e678befd] C:\Users\Velikiu\.gradle\caches\transforms-3\555739dffd3712d753473a395428626e\transformed\jetified-android-smsmms-c3e678befd\AndroidManifest.xml:10:9-15:50
+576            android:name="com.klinker.android.send_message.MmsFileProvider"
+576-->[com.github.tibbi:android-smsmms:c3e678befd] C:\Users\Velikiu\.gradle\caches\transforms-3\555739dffd3712d753473a395428626e\transformed\jetified-android-smsmms-c3e678befd\AndroidManifest.xml:11:13-76
+577            android:authorities="com.simplemobiletools.smsmessenger.debug.MmsFileProvider"
+577-->[com.github.tibbi:android-smsmms:c3e678befd] C:\Users\Velikiu\.gradle\caches\transforms-3\555739dffd3712d753473a395428626e\transformed\jetified-android-smsmms-c3e678befd\AndroidManifest.xml:12:13-67
+578            android:enabled="true"
+578-->[com.github.tibbi:android-smsmms:c3e678befd] C:\Users\Velikiu\.gradle\caches\transforms-3\555739dffd3712d753473a395428626e\transformed\jetified-android-smsmms-c3e678befd\AndroidManifest.xml:13:13-35
+579            android:exported="false"
+579-->[com.github.tibbi:android-smsmms:c3e678befd] C:\Users\Velikiu\.gradle\caches\transforms-3\555739dffd3712d753473a395428626e\transformed\jetified-android-smsmms-c3e678befd\AndroidManifest.xml:14:13-37
+580            android:grantUriPermissions="true" />
+580-->[com.github.tibbi:android-smsmms:c3e678befd] C:\Users\Velikiu\.gradle\caches\transforms-3\555739dffd3712d753473a395428626e\transformed\jetified-android-smsmms-c3e678befd\AndroidManifest.xml:15:13-47
+581
+582        <uses-library
+582-->[com.github.tibbi:android-smsmms:c3e678befd] C:\Users\Velikiu\.gradle\caches\transforms-3\555739dffd3712d753473a395428626e\transformed\jetified-android-smsmms-c3e678befd\AndroidManifest.xml:17:9-19:40
+583            android:name="org.apache.http.legacy"
+583-->[com.github.tibbi:android-smsmms:c3e678befd] C:\Users\Velikiu\.gradle\caches\transforms-3\555739dffd3712d753473a395428626e\transformed\jetified-android-smsmms-c3e678befd\AndroidManifest.xml:18:13-50
+584            android:required="false" />
+584-->[com.github.tibbi:android-smsmms:c3e678befd] C:\Users\Velikiu\.gradle\caches\transforms-3\555739dffd3712d753473a395428626e\transformed\jetified-android-smsmms-c3e678befd\AndroidManifest.xml:19:13-37
+585
+586        <receiver
+586-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\fbab4929a5b6b989a621f9eea04c901c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+587            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+587-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\fbab4929a5b6b989a621f9eea04c901c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+588            android:directBootAware="false"
+588-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\fbab4929a5b6b989a621f9eea04c901c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+589            android:enabled="true"
+589-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\fbab4929a5b6b989a621f9eea04c901c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+590            android:exported="true"
+590-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\fbab4929a5b6b989a621f9eea04c901c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+591            android:permission="android.permission.DUMP" >
+591-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\fbab4929a5b6b989a621f9eea04c901c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+592            <intent-filter>
+592-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\fbab4929a5b6b989a621f9eea04c901c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+593                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+593-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\fbab4929a5b6b989a621f9eea04c901c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+593-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\fbab4929a5b6b989a621f9eea04c901c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+594            </intent-filter>
+595            <intent-filter>
+595-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\fbab4929a5b6b989a621f9eea04c901c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+596                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+596-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\fbab4929a5b6b989a621f9eea04c901c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+596-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\fbab4929a5b6b989a621f9eea04c901c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+597            </intent-filter>
+598            <intent-filter>
+598-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\fbab4929a5b6b989a621f9eea04c901c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+599                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+599-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\fbab4929a5b6b989a621f9eea04c901c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+599-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\fbab4929a5b6b989a621f9eea04c901c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+600            </intent-filter>
+601            <intent-filter>
+601-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\fbab4929a5b6b989a621f9eea04c901c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+602                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+602-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\fbab4929a5b6b989a621f9eea04c901c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+602-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Velikiu\.gradle\caches\transforms-3\fbab4929a5b6b989a621f9eea04c901c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+603            </intent-filter>
+604        </receiver>
+605    </application>
+606
+607</manifest>
